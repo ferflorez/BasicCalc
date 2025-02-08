@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "basic_calculator"
+version = "0.1.0"
+description = "A basic arithmetic calculator"
+authors = ["Your Name <your.email@example.com>"]  # Replace with your info
+license = "MIT"  # Choose your license
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Or your preferred Python version
+PyQt6 = "^6.4.0" # For the GUI
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
